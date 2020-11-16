@@ -18,8 +18,8 @@ docker run \
     # Run the `exo zone` command to get this value
     --exoscale-zone-id 4da1b188-dcd6-4ff5-b7fd-bde984055548 \
     # Run the `exo instancepool list` command to get this value:
-    --instance-pool-id ...
+    --instance-pool-id ... \
     # Provide the Prometheus service port
-    --port 9100
+    --prometheus-port 9100
 ```
 
